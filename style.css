@@ -53,11 +53,13 @@ body {
   text-align: end;
   padding-right: 2.2rem;
   padding-left: 1.8rem;
+  min-height: 2.8rem;
 
   font-size: 2rem;
-  color: #6B6B6B;
   line-height: 140%;
   letter-spacing:  -0.02em;
+
+  color: #6B6B6B;
 }
 
 #displayResults {

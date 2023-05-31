@@ -10,6 +10,9 @@
   <title>Calculadora</title>
 
   <link rel="stylesheet" href="style.css">
+
+  <script src="/scripts/index.js" defer type="module"></script>
+
 </head>
 <body>
   <div class="app">
@@ -18,40 +21,40 @@
 
       <section id="displayCalculator">
 
-        <div id="historicDisplay">1 + 1</div>
+        <div id="historicDisplay"></div>
 
         <div id="displayResults">
           <img src="/assets/Equals.svg" alt="">
-          <span id="resultOperations">2</span>
+          <span id="resultOperations"></span>
         </div>
         
       </section>
 
       <section id="keyboardCalculator">
-        <button class="primary"><img src="assets/CE.svg" alt=""></button>
-        <button class="primary"><img src="assets/C.svg" alt=""></button>
-        <button class="primary"><img src="assets/Divide.svg" alt=""></button>
-        <button class="primary"><img src="assets/Divide.svg" alt=""></button>
+        <button class="primary" value="CE" id="cleardisplay"><img src="assets/CE.svg" alt=""></button>
+        <button class="primary" value="C"><img src="assets/C.svg" alt=""></button>
+        <button class="primary" value="%"><img src="assets/Percent.svg" alt=""></button>
+        <button class="primary" value="/"><img src="assets/Divide.svg" alt=""></button>
 
-        <button class="primary">7</button>
-        <button class="primary">8</button>
-        <button class="primary">9</button>
-        <button class="secondary"><img src="assets/X.svg" alt=""></button>
+        <button class="primary" value="7">7</button>
+        <button class="primary" value="8">8</button>
+        <button class="primary" value="9">9</button>
+        <button class="secondary" value="*"><img src="assets/X.svg" alt=""></button>
 
-        <button class="primary">4</button>
-        <button class="primary">5</button>
-        <button class="primary">6</button>
-        <button class="secondary"><img src="assets/Minus.svg" alt=""></button>
+        <button class="primary" value="4">4</button>
+        <button class="primary" value="5">5</button>
+        <button class="primary" value="6">6</button>
+        <button class="secondary" value="-"><img src="assets/Minus.svg" alt=""></button>
 
-        <button class="primary">1</button>
-        <button class="primary">2</button>
-        <button class="primary">3</button>
-        <button class="secondary"><img src="assets/Plus.svg" alt=""></button>
+        <button class="primary" value="1">1</button>
+        <button class="primary" value="2">2</button>
+        <button class="primary" value="3">3</button>
+        <button class="secondary" value="+"><img src="assets/Plus.svg" alt=""></button>
 
-        <button class="primary"><img src="assets/PlusMinus.svg" alt=""></button>
-        <button class="primary">0</button>
-        <button class="primary">,</button>
-        <button class="tertiary"><img src="assets/equalskeyboard.svg" alt=""></button>
+        <button class="primary" value="+/-"><img src="assets/PlusMinus.svg" alt=""></button>
+        <button class="primary" value="0">0</button>
+        <button class="primary" value=".">,</button>
+        <button class="tertiary" value="="><img src="assets/equalskeyboard.svg" alt=""></button>
       </section>
 
     </main>
